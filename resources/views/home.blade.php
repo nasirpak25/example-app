@@ -16,6 +16,9 @@
 
                     {{-- {{ __('You are logged in!') }} --}}
                     <button class="border border-none p-2 fw-bold px-3 "><a class="text-decoration-none" href="/createUser">Create</a></button>
+                    <button class="border border-none p-2 fw-bold px-3 ">
+                        <a class="text-decoration-none" href="{{ route('readUsers') }}">Read</a>
+                    </button>
                 </div>
             </div>
         </div>
